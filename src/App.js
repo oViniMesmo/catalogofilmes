@@ -1,16 +1,18 @@
+import Banner from './componentes/Banner';
+import Cabecalho from './componentes/Cabecalho';
+import Rodape from './componentes/Rodape';
+import Container from './componentes/Container';
+import './index.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-        <h1> a </h1>
-        <p>
-         iai chapas
-        
-        </p>
-        </div>
-      </header>
-    </div>
+  <div className="app">
+    <Cabecalho />
+    <Banner />
+    <Container>
+        <p>Bem-vindo ao APP Filmes! Aqui você encontrará informações sobre seus filmes favoritos, incluindo sinopses, trailers e muito mais. Explore nossa coleção e descubra novos títulos para assistir!</p>
+    </Container>
+    <Rodape />
+  </div>
   );
 }
 

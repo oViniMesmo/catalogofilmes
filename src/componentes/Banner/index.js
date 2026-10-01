@@ -1,20 +1,10 @@
 import styles from './Banner.module.css';
-function Banner() {
-    return (
-        <div className={styles.banner}>
-          <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
-            <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="Logo TMDB" className={styles.logo} />
-          <style jsx>{`
-            .logo {
-              width: 100px;
-              height: 100px;
-            }
-          `}</style>
-          </a>
-          <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
-          </a>
-        </div>
-    );
+
+function Banner({ image }) {
+  return (
+    <div
+      className={styles.banner}
+  );
 }
 
 export default Banner;

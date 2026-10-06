@@ -8,9 +8,7 @@ function App() {
   <div className="app">
     <Cabecalho />
     <Banner />
-    <Container>
         <p>Bem-vindo ao APP Filmes! Aqui você encontrará informações sobre seus filmes favoritos, incluindo sinopses, trailers e muito mais. Explore nossa coleção e descubra novos títulos para assistir!</p>
-    </Container>
     <Rodape />
   </div>
   );

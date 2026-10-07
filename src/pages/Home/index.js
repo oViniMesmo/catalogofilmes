@@ -1,12 +1,15 @@
-import Cabecalho from './componentes/Cabecalho';
-import Rodape from './componentes/Rodape';
-function Home() {
-  return (
-  <>
-    <Cabecalho />
+import Banner from '../../componentes/Banner';
+import Container from '../../componentes/Container';
 
-    <Rodape />
-  </>
+function Home() {
+  return(
+    <>
+    <Banner />
+    <Container>
+      <h1> Catálogo de Filmes </h1>
+
+    </Container>
+    </>
   );
 }
 

@@ -1,8 +1,11 @@
-import styles from './Container.modules.css';
+import styles from './Container.module.css'
+
 function Container({children}) {
-    return ( 
-        <section className={styles.container}>  
+    return (
+        <div className={styles.container}>
             {children}
-        </section> 
-    ) }
-    export default Container;
+        </div>
+    )
+}
+
+export default Container
